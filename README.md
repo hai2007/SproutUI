@@ -5,9 +5,9 @@
   <a href="https://hai2007.gitee.io/npm-downloads?interval=7&packages=sprout-ui"><img src="https://img.shields.io/npm/dm/sprout-ui.svg" alt="downloads"></a>
   <a href="https://packagephobia.now.sh/result?p=sprout-ui"><img src="https://packagephobia.now.sh/badge?p=sprout-ui" alt="install size"></a>
   <a href="https://www.npmjs.com/package/sprout-ui"><img src="https://img.shields.io/npm/v/sprout-ui.svg" alt="Version"></a>
-  <a href="https://github.com/hai2007/Sprout-UI/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/sprout-ui.svg" alt="License"></a>
-  <a href="https://github.com/hai2007/Sprout-UI">
-        <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/hai2007/Sprout-UI?style=social">
+  <a href="https://github.com/hai2007/SproutUI/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/sprout-ui.svg" alt="License"></a>
+  <a href="https://github.com/hai2007/SproutUI">
+        <img alt="GitHub repo stars" src="https://img.shields.io/github/stars/hai2007/SproutUI?style=social">
     </a>
 </p>
 
