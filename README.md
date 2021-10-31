@@ -1,7 +1,7 @@
 <img src='./logo.png'>
 
 # [SproutUI](https://hai2007.github.io/SproutUI)
-常用框架UI组件库。
+常用框架UI组件库，帮助你快速开发哦~
 
 <p>
   <a href="https://hai2007.gitee.io/npm-downloads?interval=7&packages=sprout-ui"><img src="https://img.shields.io/npm/dm/sprout-ui.svg" alt="downloads"></a>

@@ -110,6 +110,7 @@
                     &:hover {
                         font-weight: 800;
                     }
+
                 }
             }
         }
