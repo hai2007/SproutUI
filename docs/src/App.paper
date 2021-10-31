@@ -3,7 +3,7 @@
         <span>SproutUI | 常用框架UI组件库，帮助你快速开发哦~</span>
         <nav>
             <span @click='loadpage("begin","no")' :active='url=="begin"?"yes":"no"'>
-                开始
+                首页
             </span>
             <span>
                 <a href="https://github.com/hai2007/SproutUI" target="_blank">GitHub</a>
@@ -20,7 +20,8 @@
     import uiSearch from './components/ui-search.paper';
 
     let pages = {
-        begin: () => import('./pages/begin.paper')
+        begin: () => import('./pages/begin.paper'),
+        nefbl: () => import('./pages/nefbl/index.paper')
     };
 
     export default {
