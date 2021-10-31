@@ -1,7 +1,7 @@
 {
   "name": "sprout-ui",
   "version": "0.1.0-alpha.0",
-  "description": "常用框架UI组件库。",
+  "description": "常用框架UI组件库，帮助你快速开发哦~",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hai2007/SproutUI.git"

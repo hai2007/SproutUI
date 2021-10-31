@@ -1,4 +1,6 @@
-# SproutUI
+<img src='./logo.png'>
+
+# [SproutUI](https://hai2007.github.io/SproutUI)
 常用框架UI组件库。
 
 <p>
