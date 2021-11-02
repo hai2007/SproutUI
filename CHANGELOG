@@ -1,0 +1,6 @@
+v0.1.0:
+    date:2021-11-02
+    changes:
+      - 初始化版本
+      - 新增nefbl基础指令
+        （ui-bind、ui-on、ui-model）

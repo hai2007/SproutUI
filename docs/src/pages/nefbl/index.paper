@@ -1,3 +1,65 @@
-<template>
-nefbl:开发中
+<template class='nav-view'>
+    <div class="menu">
+        <ul :active='pagename=="directive"?"yes":"no"'>
+            <li>
+                <h3 @click='openPage("directive","top","no")'>指令</h3>
+                <ul>
+                    <li>
+                        <h4 @click='doScroll("ui-bind")'>ui-bind</h4>
+                    </li>
+                    <li>
+                        <h4 @click='doScroll("ui-model")'>ui-model</h4>
+                    </li>
+                    <li>
+                        <h4 @click='doScroll("ui-on")'>ui-on</h4>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id='root-view' class='view'>
+        <div id='fixed-top'>
+            <nav class='position'>
+                当前位置：
+                <a href="#/" target="_blank" title='点击我返回SproutUI首页'>SproutUI</a>
+                /
+                <a href="https://nefbl.github.io/api/" target="_blank" class='nefbl' title='点击我打开nefbl官网'>nefbl</a>
+            </nav>
+            <component :is='page'></component>
+        </div>
+    </div>
 </template>
+<script>
+    import fixedScroll from '../../service/fixedScroll.js';
+
+    let pages = {
+        "directive": () => import('./directive.paper')
+    };
+
+    export default {
+        data() {
+            return {
+                page: null,
+                pagename: ""
+            };
+        },
+        mounted() {
+            let urlJson = this.$urlFormat(window.location.href);
+            this.openPage(urlJson.router[1] in pages ? urlJson.router[1] : "directive", urlJson.params.fixed || "top");
+        },
+        methods: {
+            openPage(pagename, fixedName, flag) {
+                pages[pagename]().then(data => {
+                    this.page = data.default;
+                    this.pagename = pagename;
+                    if (flag == 'no') window.location.href = "#/nefbl/" + pagename + "?fixed=" + fixedName;
+                    fixedScroll(fixedName);
+                });
+            },
+            doScroll(fixedName) {
+                window.location.href = "#/nefbl/" + this.pagename + "?fixed=" + fixedName;
+                fixedScroll(fixedName);
+            }
+        }
+    };
+</script>

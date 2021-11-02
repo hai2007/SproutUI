@@ -1,0 +1,85 @@
+<template class='doc-view'>
+    <header>
+        指令
+    </header>
+    <h2 id='fixed-ui-bind'>
+        ui-bind
+    </h2>
+    <pre q-code>
+import uiBind from 'sprout-ui/nefbl/directive/ui-bind'
+
+@Module({
+    declarations: [uiBind]
+})
+export default class {}
+    </pre>
+    <p>
+        只会主动同步数据到视图。
+    </p>
+    <pre q-code='html'>
+        <div ui-bind='param' ui-bind:param='param'></div>
+    </pre>
+    <p>
+        上面我们演示了两种用法，第一种会修改标签的value或innerText,第二种会修改标签的param属性。
+    </p>
+    <p class='warn'>
+        温馨提示：其中param表示双向绑定的数据（下同）。
+    </p>
+    <h2 id='fixed-ui-model'>
+        ui-model
+    </h2>
+    <pre q-code>
+import uiModel from 'sprout-ui/nefbl/directive/ui-model'
+
+@Module({
+    declarations: [uiModel]
+})
+export default class {}
+    </pre>
+    <p>
+        一般用于输入框，可以实现视图和数据之间的同步。
+    </p>
+    <pre q-code='html'>
+        <input ui-model='param'/>
+    </pre>
+    <h2 id='fixed-ui-on'>
+        ui-on
+    </h2>
+    <pre q-code>
+    import uiOn from 'sprout-ui/nefbl/directive/ui-on'
+
+    @Module({
+        declarations: [uiOn]
+    })
+    export default class {}
+        </pre>
+    <p>
+        用于在标签中注册DOM事件。
+    </p>
+    <pre q-code='html'>
+        <div ui-on:click='doit'>点击我</div>
+    </pre>
+    <p>
+        上面我们演示的是单击，如果把.click改成.dblclick就是双击，别的DOM事件也类似。
+    </p>
+    <p>
+        除此之外，还有几个特殊的选项（可以同时使用）：
+    </p>
+    <pre q-code='html'>
+        <div ui-on:click.once='doit'>点击我</div>
+    </pre>
+    <p>
+        上面我们添加了.once，表示点击一次后就会失效,一共有以下可选：
+    </p>
+    <ul>
+        <li>
+            1.prevent 阻止默认事件
+        </li>
+        <li>
+            2.stop 阻止冒泡
+        </li>
+        <li>
+            3.once 只执行一次
+        </li>
+    </ul>
+</template>
