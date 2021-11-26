@@ -10,7 +10,12 @@ module.exports = {
     module: {
         rules: [{
             test: /\.js$/,
-            exclude: /node_modules/,
+            exclude: function (modulePath) {
+                return (
+                    /node_modules/.test(modulePath) &&
+                    !/sprout\-ui/.test(modulePath)
+                );
+            },
             loader: "babel-loader"
         }, {
             test: /\.paper$/,

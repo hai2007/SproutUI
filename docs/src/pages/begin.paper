@@ -23,6 +23,29 @@
             </a>
         </div>
         <header>
+            问题
+        </header>
+        <p>
+            如果你使用webpack配合babel进行项目打包，由于部分包采用了let等es6+语法，为了可以正常打包，你需要修改webpack的配置，参考如下：
+        </p>
+        <pre q-code>
+......
+rules: [{
+    test: /\.js$/,
+    exclude: function (modulePath) {
+        return (
+            /node_modules/.test(modulePath) &&
+            !/sprout\-ui/.test(modulePath)
+        );
+    },
+    loader: "babel-loader"
+},
+......
+        </pre>
+        <p>
+            其次，请确保你使用了babel.config.js而不是.babelrc，否则较高版本的babel可能依旧不会对你忽略的node_modules中的包进行转义。
+        </p>
+        <header>
             版本
         </header>
         <p>
@@ -75,6 +98,7 @@
                         &.nefbl {
                             background-image: url('../assets/nefbl.png');
                         }
+
                         &.quick-paper {
                             background-image: url('../assets/quick-paper.png');
                         }

@@ -18,7 +18,7 @@ QuickPaper.directive('qCode', qCode);
 <div q-code></div>
     </pre>
     <p>
-        当然，你也可以知道代码语言，可选的语言有：javascript（默认值）、css、html。
+        当然，你也可以设置代码语言，可选的语言有：javascript（默认值）、css、html。
     </p>
     <p>
         如何指定？例如：
