@@ -5,19 +5,7 @@
                 <h3 @click='openPage("directive","top","no")'>指令</h3>
                 <ul>
                     <li>
-                        <h4 @click='doScroll("ui-bind")'>ui-bind</h4>
-                    </li>
-                    <li>
-                        <h4 @click='doScroll("ui-model")'>ui-model</h4>
-                    </li>
-                    <li>
-                        <h4 @click='doScroll("ui-on")'>ui-on</h4>
-                    </li>
-                    <li>
-                        <h4 @click='doScroll("ui-code")'>ui-code</h4>
-                    </li>
-                    <li>
-                        <h4 @click='doScroll("ui-lazy")'>ui-lazy</h4>
+                        <h4 @click='doScroll("q-code")'>q-code</h4>
                     </li>
                 </ul>
             </li>
@@ -29,7 +17,7 @@
                 当前位置：
                 <a href="#/" target="_blank" title='点击我返回SproutUI首页'>SproutUI</a>
                 /
-                <a href="https://nefbl.github.io/api/" target="_blank" class='nefbl' title='点击我打开nefbl官网'>nefbl</a>
+                <a href="https://hai2007.gitee.io/quick-paper/" target="_blank" class='quick-paper' title='点击我打开Quick Paper官网'>Quick Paper</a>
             </nav>
             <component :is='page'></component>
         </div>

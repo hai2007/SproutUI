@@ -1,0 +1,29 @@
+<template class='doc-view'>
+    <header>
+        指令
+    </header>
+    <h2 id='fixed-q-code'>
+        q-code
+    </h2>
+    <pre q-code>
+import QuickPaper from 'quick-paper';
+import qCode from 'sprout-ui/quick-paper/directive/q-code';
+
+QuickPaper.directive('qCode', qCode);
+    </pre>
+    <p>
+        用于在页面显示一个内嵌的代码编辑器，不可编辑：
+    </p>
+    <pre q-code='html'>
+<div q-code></div>
+    </pre>
+    <p>
+        当然，你也可以知道代码语言，可选的语言有：javascript（默认值）、css、html。
+    </p>
+    <p>
+        如何指定？例如：
+    </p>
+    <pre q-code='html'>
+<div q-code='html'></div>
+    </pre>
+</template>

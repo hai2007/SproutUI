@@ -17,6 +17,10 @@
                 <i class="nefbl"></i>
                 nefbl.js
             </a>
+            <a href="#/quick-paper" target="_blank">
+                <i class="quick-paper"></i>
+                Quick Paper
+            </a>
         </div>
         <header>
             版本
@@ -70,6 +74,9 @@
 
                         &.nefbl {
                             background-image: url('../assets/nefbl.png');
+                        }
+                        &.quick-paper {
+                            background-image: url('../assets/quick-paper.png');
                         }
 
                     }

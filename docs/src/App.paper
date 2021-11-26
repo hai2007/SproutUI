@@ -21,7 +21,8 @@
 
     let pages = {
         begin: () => import('./pages/begin.paper'),
-        nefbl: () => import('./pages/nefbl/index.paper')
+        nefbl: () => import('./pages/nefbl/index.paper'),
+        'quick-paper': () => import('./pages/quick-paper/index.paper')
     };
 
     export default {

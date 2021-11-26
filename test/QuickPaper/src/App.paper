@@ -1,0 +1,16 @@
+<template>
+
+    <!-- q-code -->
+    <div q-code>
+        console.log('你好')
+    </div>
+
+</template>
+<script>
+    export default {
+
+    };
+</script>
+<style lang="scss">
+
+</style>

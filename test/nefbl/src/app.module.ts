@@ -7,11 +7,14 @@ import AppComponent from './App/index'
 import uiBind from 'sprout-ui/nefbl/directive/ui-bind'
 import uiModel from 'sprout-ui/nefbl/directive/ui-model'
 import uiOn from 'sprout-ui/nefbl/directive/ui-on'
+import uiCode from 'sprout-ui/nefbl/directive/ui-code'
+import uiLazy from 'sprout-ui/nefbl/directive/ui-lazy'
 
 @Module({
     declarations: [
         AppComponent,
-        uiBind, uiModel, uiOn
+        uiBind, uiModel, uiOn,
+        uiCode, uiLazy
     ],
     imports: [],
     exports: [],

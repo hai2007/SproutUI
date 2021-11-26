@@ -82,4 +82,64 @@ export default class {}
             3.once 只执行一次
         </li>
     </ul>
+    <h2 id='fixed-ui-code'>
+        ui-code
+    </h2>
+    <pre q-code>
+import uiCode from 'sprout-ui/nefbl/directive/ui-code'
+
+@Module({
+    declarations: [uiCode]
+})
+export default class {}
+    </pre>
+    <p>
+        用于在页面显示一个内嵌的代码编辑器，不可编辑：
+    </p>
+    <pre q-code='html'>
+<div ui-code></div>
+    </pre>
+    <p>
+        当然，你也可以知道代码语言，可选的语言有：javascript（默认值）、css、html。
+    </p>
+    <p>
+        如何指定？例如：
+    </p>
+    <pre q-code='html'>
+<div ui-code='html'></div>
+    </pre>
+    <h2 id='fixed-ui-lazy'>
+        ui-lazy
+    </h2>
+    <pre q-code>
+import uiLazy from 'sprout-ui/nefbl/directive/ui-lazy'
+
+@Module({
+    declarations: [uiLazy]
+})
+export default class {}
+    </pre>
+    <p>
+        用于实现页面懒加载。比如现在有一个懒加载定义的页面：
+    </p>
+    <pre q-code>
+let page1=()=>import('./page1/index')
+    </pre>
+    <p>
+        通过ref定义了一个双向绑定的变量page，你可以先把上面懒加载的页面加载后赋值给变量：
+    </p>
+    <pre q-code>
+page1().then(data=>{
+    this.page=data.default
+})
+    </pre>
+    <p>
+        如何让page1在页面中显示？此时就可以使用这个指令了：
+    </p>
+    <pre q-code>
+<div ui-lazy='page'></div>
+    </pre>
+    <p>
+        当然，后续你可以通过修改this.page的值来实现显示别的懒加载页面，也就是实现了局部的翻页功能。
+    </p>
 </template>

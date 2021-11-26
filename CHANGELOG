@@ -4,3 +4,11 @@ v0.1.0:
       - 初始化版本
       - 新增nefbl基础指令
         （ui-bind、ui-on、ui-model）
+v0.2.0:
+    date:2021-11-26
+    changes:
+      - 新增nefbl指令
+        （ui-code、ui-lazy）
+      - 新增QuickPaper指令
+        （q-code）
+

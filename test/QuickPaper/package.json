@@ -1,7 +1,7 @@
 {
-  "name": "docs",
-  "version": "0.1.2",
-  "description": "文档",
+  "name": "quickpaper",
+  "version": "0.1.0",
+  "description": "测试",
   "scripts": {
     "start": "npm install && npm run dev",
     "dev": "node_modules/.bin/webpack-dev-server --config webpack.dev.js",
@@ -28,7 +28,7 @@
     "@hai2007/polyfill": "^0.1.1",
     "@hai2007/style": "^0.2.3",
     "@hai2007/tool": "^0.9.1",
-    "open-web-editor": "^0.3.2",
-    "quick-paper": "^1.0.0"
+    "quick-paper": "^1.0.0",
+    "sprout-ui": "^0.2.0"
   }
 }
