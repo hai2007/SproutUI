@@ -11,4 +11,8 @@ v0.2.0:
         （ui-code、ui-lazy）
       - 新增QuickPaper指令
         （q-code）
+v0.2.1:
+    date:2021-12-11
+    changes:
+      - 修复ui-lazy对新打包工具@nefbl/pack的支持
 

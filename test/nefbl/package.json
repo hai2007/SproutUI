@@ -25,6 +25,6 @@
     "@hai2007/polyfill": "^0.1.1",
     "@hai2007/style": "^0.3.0",
     "nefbl": "^0.2.3",
-    "sprout-ui": "0.2.0-alpha.1"
+    "sprout-ui": "0.2.1-beta"
   }
 }
