@@ -1,5 +1,5 @@
 import { Directive } from 'nefbl'
-import xhtml from '@hai2007/tool/xhtml'
+import xhtml from '@hai2007/browser/xhtml'
 
 /**
  * [可以使用的修饰符]

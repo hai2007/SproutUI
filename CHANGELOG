@@ -15,4 +15,8 @@ v0.2.1:
     date:2021-12-11
     changes:
       - 修复ui-lazy对新打包工具@nefbl/pack的支持
+v0.2.2:
+    date:2022-01-01
+    changes:
+      - 关于xhtml的操作使用@hai2007/browser代替@hai2007/tool
 

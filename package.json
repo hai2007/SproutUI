@@ -1,6 +1,6 @@
 {
   "name": "sprout-ui",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "常用框架UI组件库，帮助你快速开发哦~",
   "repository": {
     "type": "git",
@@ -17,11 +17,12 @@
   },
   "homepage": "https://github.com/hai2007/SproutUI#readme",
   "dependencies": {
-    "@hai2007/algorithm": "^0.7.2",
-    "@hai2007/tool": "^0.9.3",
+    "@hai2007/algorithm": "^0.7.3",
+    "@hai2007/browser": "^0.2.0",
+    "@hai2007/tool": "^1.1.0",
     "open-web-editor": "^0.3.2"
   },
   "devDependencies": {
-    "nefbl": "^0.2.5"
+    "nefbl": "^0.2.6"
   }
 }

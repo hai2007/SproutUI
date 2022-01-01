@@ -96,11 +96,11 @@ rules: [{
                         margin-right: 5px;
 
                         &.nefbl {
-                            background-image: url('../assets/nefbl.png');
+                            background-image: url('./image/nefbl.png');
                         }
 
                         &.quick-paper {
-                            background-image: url('../assets/quick-paper.png');
+                            background-image: url('./image/quick-paper.png');
                         }
 
                     }

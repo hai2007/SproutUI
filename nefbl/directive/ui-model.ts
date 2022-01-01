@@ -1,5 +1,5 @@
 import { Directive, setValue } from 'nefbl'
-import xhtml from '@hai2007/tool/xhtml'
+import xhtml from '@hai2007/browser/xhtml'
 
 @Directive({
     selector: "ui-model"

@@ -36,15 +36,15 @@ div.doc-view {
         }
 
         &:first-child {
-            background-image: url('./logo.png');
+            background-image: url('./image/logo.png');
         }
 
         &.nefbl {
-            background-image: url('./nefbl.png');
+            background-image: url('./image/nefbl.png');
         }
 
         &.quick-paper {
-            background-image: url('./quick-paper.png');
+            background-image: url('./image/quick-paper.png');
         }
     }
 }

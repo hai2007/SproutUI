@@ -123,7 +123,7 @@ export default class {}
         用于实现页面懒加载。比如现在有一个懒加载定义的页面：
     </p>
     <pre q-code>
-let page1=()=>import('./page1/index')
+let page1=()=>import(`./page1/index`)
     </pre>
     <p>
         通过ref定义了一个双向绑定的变量page，你可以先把上面懒加载的页面加载后赋值给变量：
