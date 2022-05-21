@@ -19,4 +19,9 @@ v0.2.2:
     date:2022-01-01
     changes:
       - 关于xhtml的操作使用@hai2007/browser代替@hai2007/tool
+v0.3.0:
+    date:2022-05-17
+    changes:
+      - 新增h5组件
+        （sprout-switch）
 

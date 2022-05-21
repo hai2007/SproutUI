@@ -2,18 +2,18 @@
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/nefbl/directive.paper
 /*****************************************************************/
-window.__etcpack__bundleSrc__['35']=function(){
+window.__etcpack__bundleSrc__['36']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     
 
     // 导入js
-__etcpack__scope_args__=window.__etcpack__getBundle('40');
+__etcpack__scope_args__=window.__etcpack__getBundle('44');
 var script =__etcpack__scope_args__.default;
 
 
     // 导入css
-__etcpack__scope_args__=window.__etcpack__getBundle('41');
+__etcpack__scope_args__=window.__etcpack__getBundle('45');
 
 
     script.render=function(createElement){
@@ -31,7 +31,7 @@ __etcpack__scope_args__=window.__etcpack__getBundle('41');
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/nefbl/directive.paper?QuickPaper&type=script&lang=js&hash=cf20d130
 /*****************************************************************/
-window.__etcpack__bundleSrc__['40']=function(){
+window.__etcpack__bundleSrc__['44']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_bundle__.default= {};
@@ -42,7 +42,7 @@ window.__etcpack__bundleSrc__['40']=function(){
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/nefbl/directive.paper?QuickPaper&type=style&lang=css&hash=cf20d130
 /*****************************************************************/
-window.__etcpack__bundleSrc__['41']=function(){
+window.__etcpack__bundleSrc__['45']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');

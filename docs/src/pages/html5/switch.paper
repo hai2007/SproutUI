@@ -1,0 +1,41 @@
+<template class='doc-view'>
+    <header>
+        开关
+        <span>switch</span>
+    </header>
+    <h2 id='fixed-switch-import'>
+        引入&使用
+    </h2>
+    <p>
+        确定
+        <a href="#/begin" target="_blank" class="link">安装</a>
+        完毕以后，直接：
+    </p>
+    <pre q-code>
+        import 'sprout-ui/html5/switch'
+    </pre>
+    <p>
+        然后就可以在页面中使用了：
+    </p>
+    <pre q-code="html">
+        <sprout-switch value="off"></sprout-switch>
+    </pre>
+    <h2 id='fixed-switch-attr'>
+        属性
+    </h2>
+    <h3 id='fixed-switch-attr-value'>
+        value
+    </h3>
+    <p>
+        枚举类型，可以是"on"或"off"，分别表示开关打开和关闭，默认"off"。
+    </p>
+    <h2 id='fixed-switch-event'>
+        事件
+    </h2>
+    <h3 id='fixed-switch-event-oninput'>
+        oninput
+    </h3>
+    <p>
+        点击按钮使得“value”改变的时候触发。
+    </p>
+</template>

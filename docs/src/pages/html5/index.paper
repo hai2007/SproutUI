@@ -1,0 +1,78 @@
+<template class='nav-view'>
+    <div class="menu">
+        <ul :active='pagename=="switch"?"yes":"no"'>
+            <li>
+                <h3 @click='openPage("switch","top","no")'>
+                    开关
+                    <span>switch</span>
+                </h3>
+                <ul>
+                    <li>
+                        <h4 @click='doScroll("switch-import")'>引入&使用</h4>
+                    </li>
+                    <li>
+                        <h4 @click='doScroll("switch-attr")'>属性</h4>
+                        <ul>
+                            <li>
+                                <h4 @click='doScroll("switch-attr-value")'>value</h4>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4 @click='doScroll("switch-event")'>事件</h4>
+                        <ul>
+                            <li>
+                                <h4 @click='doScroll("switch-event-oninput")'>oninput</h4>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id='root-view' class='view'>
+        <div id='fixed-top'>
+            <nav class='position'>
+                当前位置：
+                <a href="#/" target="_blank" title='点击我返回SproutUI首页'>SproutUI</a>
+                /
+                <a href="javascript:void(0)" class='html5'>html5</a>
+            </nav>
+            <component :is='page'></component>
+        </div>
+    </div>
+</template>
+<script>
+    import fixedScroll from '../../service/fixedScroll.js';
+
+    let pages = {
+        "switch": () => import('./switch.paper')
+    };
+
+    export default {
+        data() {
+            return {
+                page: null,
+                pagename: ""
+            };
+        },
+        mounted() {
+            let urlJson = this.$urlFormat(window.location.href);
+            this.openPage(urlJson.router[1] in pages ? urlJson.router[1] : "switch", urlJson.params.fixed || "top");
+        },
+        methods: {
+            openPage(pagename, fixedName, flag) {
+                pages[pagename]().then(data => {
+                    this.page = data.default;
+                    this.pagename = pagename;
+                    if (flag == 'no') window.location.href = "#/html5/" + pagename + "?fixed=" + fixedName;
+                    fixedScroll(fixedName);
+                });
+            },
+            doScroll(fixedName) {
+                window.location.href = "#/html5/" + this.pagename + "?fixed=" + fixedName;
+                fixedScroll(fixedName);
+            }
+        }
+    };
+</script>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 | 测试</title>
+    <script src="../../html5/switch.js"></script>
+    <script>
+        function doit(eventName) {
+            console.log(eventName + ":" + document.getElementById('target').getAttribute('value'));
+        }
+    </script>
+</head>
+
+<body>
+
+    <sprout-switch value="on" oninput="doit('input')" id="target"></sprout-switch>
+
+</body>
+
+</html>

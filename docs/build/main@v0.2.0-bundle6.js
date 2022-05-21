@@ -2,18 +2,18 @@
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/quick-paper/directive.paper
 /*****************************************************************/
-window.__etcpack__bundleSrc__['38']=function(){
+window.__etcpack__bundleSrc__['39']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     
 
     // 导入js
-__etcpack__scope_args__=window.__etcpack__getBundle('42');
+__etcpack__scope_args__=window.__etcpack__getBundle('46');
 var script =__etcpack__scope_args__.default;
 
 
     // 导入css
-__etcpack__scope_args__=window.__etcpack__getBundle('43');
+__etcpack__scope_args__=window.__etcpack__getBundle('47');
 
 
     script.render=function(createElement){
@@ -31,7 +31,7 @@ __etcpack__scope_args__=window.__etcpack__getBundle('43');
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/quick-paper/directive.paper?QuickPaper&type=script&lang=js&hash=576b7f8a
 /*****************************************************************/
-window.__etcpack__bundleSrc__['42']=function(){
+window.__etcpack__bundleSrc__['46']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_bundle__.default= {};
@@ -42,7 +42,7 @@ window.__etcpack__bundleSrc__['42']=function(){
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/quick-paper/directive.paper?QuickPaper&type=style&lang=css&hash=576b7f8a
 /*****************************************************************/
-window.__etcpack__bundleSrc__['43']=function(){
+window.__etcpack__bundleSrc__['47']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');

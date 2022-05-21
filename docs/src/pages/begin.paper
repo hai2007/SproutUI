@@ -13,6 +13,10 @@
             安装好了以后，根据你当前的开发环境的不同，请阅读对应的文档：
         </p>
         <div class='framework-list'>
+            <a href="#/html5" target="_blank">
+                <i class="html5"></i>
+                HTML5
+            </a>
             <a href="#/nefbl" target="_blank">
                 <i class="nefbl"></i>
                 nefbl.js
@@ -101,6 +105,10 @@ rules: [{
 
                         &.quick-paper {
                             background-image: url('./image/quick-paper.png');
+                        }
+
+                        &.html5 {
+                            background-image: url('./image/html.png');
                         }
 
                     }

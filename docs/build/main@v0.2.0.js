@@ -1003,7 +1003,7 @@ window.__etcpack__bundleSrc__['16']=function(){
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');
 var head = document.head || document.getElementsByTagName('head')[0];
-styleElement.innerHTML = "\n div.doc-view>header{\n\nfont-size: 26px;\n\npadding: 30px 0;\n\nfont-weight: 800;\n\n}\n\n div.doc-view>h2{\n\nfont-size: 18px;\n\n}\n\n div.doc-view .warn{\n\nfont-size: 12px;\n\ncolor: #ff9800;\n\n}\n\n/* // 位置导航 */\n\n .position{\n\npadding-top: 30px;\n\nfont-size: 12px;\n\ncolor: rgb(0, 0, 0);\n\nfont-weight: 800;\n\n}\n\n .position>a{\n\nbackground-size: auto 80%;\n\npadding-left: 20px;\n\nbackground-repeat: no-repeat;\n\nbackground-position: left center;\n\nmargin: 0 10px;\n\ncolor: inherit;\n\n}\n\n .position>a:hover{\n\ntext-decoration: underline;\n\n}\n\n .position>a:first-child{\n\nbackground-image: url('./image/logo.png');\n\n}\n\n .position>a.nefbl{\n\nbackground-image: url('./image/nefbl.png');\n\n}\n\n .position>a.quick-paper{\n\nbackground-image: url('./image/quick-paper.png');\n\n}\n\n/* // 导航菜单页面 */\n\n .nav-view{\n\nwhite-space: nowrap;\n\n}\n\n .nav-view>div{\n\ndisplay: inline-block;\n\nvertical-align: top;\n\nwhite-space: normal;\n\nheight: calc(100vh - 60px);\n\noverflow: auto;\n\n}\n\n .nav-view>div.menu{\n\nwidth: 240px;\n\npadding: 20px 0;\n\n}\n\n .nav-view>div.menu [active='no']>li>ul{\n\ndisplay: none;\n\n}\n\n .nav-view>div.menu [active='yes']>li>h3{\n\nborder-left: 3px solid #a0db67;\n\n}\n\n .nav-view>div.menu [active='yes']>li>ul{\n\ndisplay: block;\n\n}\n\n/* // 标题 */\n\n .nav-view>div.menu h3, .nav-view>div.menu h4, .nav-view>div.menu h5, .nav-view>div.menu h6{\n\npadding-left: 7px;\n\nline-height: 30px;\n\ncursor: pointer;\n\n}\n\n/* // 一级标题 */\n\n .nav-view>div.menu h3{\n\nfont-size: 16px;\n\ncursor: pointer;\n\nmargin-top: 15px;\n\n}\n\n/* // 二级和三级标题 */\n\n .nav-view>div.menu h4, .nav-view>div.menu h5, .nav-view>div.menu h6{\n\nfont-size: 14px;\n\ncursor: pointer;\n\nfont-weight: 400;\n\n}\n\n .nav-view>div.menu>ul ul{\n\nmargin-left: 20px;\n\n}\n\n .nav-view>div.view{\n\nwidth: calc(100vw - 240px);\n\n}\n\n .nav-view>div.view>div{\n\nwidth: 700px;\n\nmargin: auto;\n\n}\n";
+styleElement.innerHTML = "\n div.doc-view>header{\n\nfont-size: 26px;\n\npadding: 30px 0;\n\nfont-weight: 800;\n\n}\n\n div.doc-view>header>span{\n\ncolor: gray;\n\npadding-left: 5px;\n\nfont-size: 12px;\n\n}\n\n div.doc-view>h2{\n\nfont-size: 18px;\n\n}\n\n div.doc-view .warn{\n\nfont-size: 12px;\n\ncolor: #ff9800;\n\n}\n\n div.doc-view .link{\n\nmargin: 0 10px;\n\n}\n\n/* // 位置导航\r */\n\n .position{\n\npadding-top: 30px;\n\nfont-size: 12px;\n\ncolor: rgb(0, 0, 0);\n\nfont-weight: 800;\n\n}\n\n .position>a{\n\nbackground-size: auto 80%;\n\npadding-left: 20px;\n\nbackground-repeat: no-repeat;\n\nbackground-position: left center;\n\nmargin: 0 10px;\n\ncolor: inherit;\n\n}\n\n .position>a:hover{\n\ntext-decoration: underline;\n\n}\n\n .position>a:first-child{\n\nbackground-image: url('./image/logo.png');\n\n}\n\n .position>a.nefbl{\n\nbackground-image: url('./image/nefbl.png');\n\n}\n\n .position>a.quick-paper{\n\nbackground-image: url('./image/quick-paper.png');\n\n}\n\n .position>a.html5{\n\nbackground-image: url('./image/html.png');\n\n}\n\n/* // 导航菜单页面\r */\n\n .nav-view{\n\nwhite-space: nowrap;\n\n}\n\n .nav-view>div{\n\ndisplay: inline-block;\n\nvertical-align: top;\n\nwhite-space: normal;\n\nheight: calc(100vh - 60px);\n\noverflow: auto;\n\n}\n\n .nav-view>div.menu{\n\nwidth: 240px;\n\npadding: 20px 0;\n\n}\n\n .nav-view>div.menu h3>span{\n\ncolor: gray;\n\npadding-left: 5px;\n\nfont-size: 12px;\n\n}\n\n .nav-view>div.menu [active='no']>li>ul{\n\ndisplay: none;\n\n}\n\n .nav-view>div.menu [active='yes']>li>h3{\n\nborder-left: 3px solid #a0db67;\n\n}\n\n .nav-view>div.menu [active='yes']>li>ul{\n\ndisplay: block;\n\n}\n\n/* // 标题\r */\n\n .nav-view>div.menu h3, .nav-view>div.menu h4, .nav-view>div.menu h5, .nav-view>div.menu h6{\n\npadding-left: 7px;\n\nline-height: 30px;\n\ncursor: pointer;\n\n}\n\n/* // 一级标题\r */\n\n .nav-view>div.menu h3{\n\nfont-size: 16px;\n\ncursor: pointer;\n\nmargin-top: 15px;\n\n}\n\n/* // 二级和三级标题\r */\n\n .nav-view>div.menu h4, .nav-view>div.menu h5, .nav-view>div.menu h6{\n\nfont-size: 14px;\n\ncursor: pointer;\n\nfont-weight: 400;\n\n}\n\n .nav-view>div.menu>ul ul{\n\nmargin-left: 20px;\n\n}\n\n .nav-view>div.view{\n\nwidth: calc(100vw - 240px);\n\n}\n\n .nav-view>div.view>div{\n\nwidth: 700px;\n\nmargin: auto;\n\n}\n";
 styleElement.setAttribute('type', 'text/css');head.appendChild(styleElement);
   
     return __etcpack__scope_bundle__;
@@ -1641,7 +1641,7 @@ var script =__etcpack__scope_args__.default;
 
 
     // 导入css
-__etcpack__scope_args__=window.__etcpack__getBundle('31');
+__etcpack__scope_args__=window.__etcpack__getBundle('32');
 
 
     script.render=function(createElement){
@@ -1667,9 +1667,10 @@ var uiSearch =__etcpack__scope_args__.default;
 
 
     let pages = {
-        begin: () => window.__etcpack__getLazyBundle('./build/main@v0.1.2-bundle1.js','28'),
-        nefbl: () => window.__etcpack__getLazyBundle('./build/main@v0.1.2-bundle2.js','29'),
-        'quick-paper': () => window.__etcpack__getLazyBundle('./build/main@v0.1.2-bundle3.js','30')
+        begin: () => window.__etcpack__getLazyBundle('./build/main@v0.2.0-bundle1.js','28'),
+        nefbl: () => window.__etcpack__getLazyBundle('./build/main@v0.2.0-bundle2.js','29'),
+        'quick-paper': () => window.__etcpack__getLazyBundle('./build/main@v0.2.0-bundle3.js','30'),
+        html5: () => window.__etcpack__getLazyBundle('./build/main@v0.2.0-bundle4.js','31'),
     };
 
     __etcpack__scope_bundle__.default= {
@@ -1772,7 +1773,7 @@ styleElement.setAttribute('type', 'text/css');head.appendChild(styleElement);
 /*************************** [bundle] ****************************/
 // Original file:./src/App.paper?QuickPaper&type=style&lang=css&hash=347ecaca
 /*****************************************************************/
-window.__etcpack__bundleSrc__['31']=function(){
+window.__etcpack__bundleSrc__['32']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');

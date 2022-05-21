@@ -17,6 +17,29 @@
 使用的时候遇到任何问题或有好的建议，请点击进入[issue](https://github.com/hai2007/SproutUI/issues)！
 
 ## How to use?
+
+首先你需要通过命令行安装，就像这样：
+
+```js
+npm install --save sprout-ui
+```
+
+安装好了以后，根据你当前的开发环境的不同，请阅读对应的文档：
+
+<a href='https://hai2007.github.io/SproutUI/#/html5' target='_blank'>
+  <img width='50px' src='docs/image/html.png'>
+  HTML5
+</a>| 
+<a href='https://hai2007.github.io/SproutUI/#/nefbl' target='_blank'>
+  <img width='50px' src='docs/image/nefbl.png'>
+  nefbl.js
+</a>|
+<a href='https://hai2007.github.io/SproutUI/#/quick-paper' target='_blank'>
+  <img width='50px' src='docs/image/quick-paper.png'>
+  Quick Paper
+</a>|
+等......
+
 具体的使用你可以[查阅文档](https://hai2007.github.io/SproutUI)哦~
 
 开源协议

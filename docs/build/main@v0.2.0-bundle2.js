@@ -8,12 +8,12 @@ window.__etcpack__bundleSrc__['29']=function(){
     
 
     // 导入js
-__etcpack__scope_args__=window.__etcpack__getBundle('34');
+__etcpack__scope_args__=window.__etcpack__getBundle('35');
 var script =__etcpack__scope_args__.default;
 
 
     // 导入css
-__etcpack__scope_args__=window.__etcpack__getBundle('36');
+__etcpack__scope_args__=window.__etcpack__getBundle('37');
 
 
     script.render=function(createElement){
@@ -31,7 +31,7 @@ __etcpack__scope_args__=window.__etcpack__getBundle('36');
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/nefbl/index.paper?QuickPaper&type=script&lang=js&hash=088e5f2b
 /*****************************************************************/
-window.__etcpack__bundleSrc__['34']=function(){
+window.__etcpack__bundleSrc__['35']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     __etcpack__scope_args__=window.__etcpack__getBundle('21');
@@ -39,7 +39,7 @@ var fixedScroll =__etcpack__scope_args__.default;
 
 
     let pages = {
-        "directive": () => window.__etcpack__getLazyBundle('./build/main@v0.1.2-bundle4.js','35')
+        "directive": () => window.__etcpack__getLazyBundle('./build/main@v0.2.0-bundle5.js','36')
     };
 
     __etcpack__scope_bundle__.default= {
@@ -75,7 +75,7 @@ var fixedScroll =__etcpack__scope_args__.default;
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/nefbl/index.paper?QuickPaper&type=style&lang=css&hash=088e5f2b
 /*****************************************************************/
-window.__etcpack__bundleSrc__['36']=function(){
+window.__etcpack__bundleSrc__['37']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');
